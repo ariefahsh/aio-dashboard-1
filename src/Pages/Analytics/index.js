@@ -15,7 +15,7 @@ const Analytics = (props) => {
   return (
     <>
       <HeaderSection
-        heading={"Analytics"}
+        heading={"Selamat Datang Kembali!"}
         subHeading={"Welcome to Analytics"}
         rightItem={() => (
           <ActionButton
@@ -27,13 +27,12 @@ const Analytics = (props) => {
       />
       <Section>
         <DataCard
-          label="My Data"
-          value="2324232"
-          percentageValue="30"
+          label="Estimasi Berat Hari Ini"
+          value="3.02 kg"
           inverse={true}
         />
-        <DataCard label="My Data 2" value="2324232" percentageValue="30" />
-        <DataCard label="My Data 3" value="2324232" percentageValue="30" />
+        <DataCard label="Kenaikan dari kemarin" percentageValue="2" />
+        <DataCard label="Kenaikan dari hari pertama" percentageValue="40" />
       </Section>
 
       <Section>
@@ -43,8 +42,6 @@ const Analytics = (props) => {
         />
 
       </Section>
-    
-      <BillingHistory />
 
       <Modal
         isOpen={newUserModal}
