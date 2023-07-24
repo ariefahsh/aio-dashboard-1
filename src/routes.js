@@ -28,5 +28,10 @@ export default [
         to: '/statistics',
         name: 'Statistics',
         Icon: AiOutlineBarChart
+    },
+    {
+        to: '/analytics',
+        name: 'Analytics',
+        Icon: AiOutlineBarChart
     }
 ];
